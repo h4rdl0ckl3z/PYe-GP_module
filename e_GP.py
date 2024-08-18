@@ -14,7 +14,8 @@ class e_GP:
             'title': [],
             'link': [],
             'pubDate': [],
-            'anounceType': []
+            'anounceType': [],
+            'egpid': []
         }
 
         for anounceType in anounceType_:
@@ -26,6 +27,7 @@ class e_GP:
                         tree = ET.parse(res).getroot()
                         for root in tree.findall('./channel/item'):
                             if root.tag == 'item':
+                                list_data['egpid'].append(deptId)
                                 list_data['anounceType'].append(anounceType)
                                 for rss in root:
                                     if rss.tag == 'description' or rss.tag == 'guid':
