@@ -7,6 +7,8 @@ print(e_GP(['egpid']))
 from e_GP import e_GP
 print(e_GP(['egpid']))
 ```
+![image](https://github.com/user-attachments/assets/fec9e92b-df35-4514-b326-7c4f315a419c)
+
 
 ### How to fixed : lookuperror unknown encoding windows-874
 Windows -> C:\Users\\[username]\AppData\Local\Programs\Python\Python[version]\Lib\encodings
