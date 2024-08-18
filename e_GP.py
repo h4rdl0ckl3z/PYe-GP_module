@@ -1,5 +1,5 @@
 class e_GP:
-    def __init__(self, deptId_):
+    def __new__(self, deptId_):
         from urllib.request import urlopen
         from urllib.error import URLError, HTTPError
         import xml.etree.ElementTree as ET
