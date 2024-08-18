@@ -39,6 +39,3 @@ class e_GP:
                 except (URLError, HTTPError, ConnectionError) as err:
                     print(err)
         return list_data
-
-# example
-print(e_GP(['6840502']))
