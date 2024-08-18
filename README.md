@@ -4,7 +4,7 @@ print(e_GP(['egpid']))
 ```
 ## or
 ```
-import e_GP
+from e_GP import e_GP
 print(e_GP(['egpid']))
 ```
 
