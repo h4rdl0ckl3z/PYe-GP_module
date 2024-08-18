@@ -1,5 +1,5 @@
 class e_GP:
-    def egp(self, deptId_):
+    def __init__(self, deptId_):
         from urllib.request import urlopen
         from urllib.error import URLError, HTTPError
         import xml.etree.ElementTree as ET
@@ -34,7 +34,6 @@ class e_GP:
                                         list_data[rss.tag].append(rss.text)
                             else:
                                 print('No ITEMS')
-
                     except ET.ParseError as err:
                         print(err)
                 except (URLError, HTTPError, ConnectionError) as err:
@@ -42,5 +41,4 @@ class e_GP:
         return list_data
 
 # example
-test = e_GP()
-print(test.egp(['6840502']))
+print(e_GP(['6840502']))
