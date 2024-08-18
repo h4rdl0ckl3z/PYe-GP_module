@@ -1,3 +1,3 @@
 example
 
-print(e_GP(['6840502']))
+print(e_GP(['egpid']))
