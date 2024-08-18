@@ -1,5 +1,3 @@
 example
 
-test = e_GP()
-
-print(test.egp(['egpid']))
+print(e_GP(['6840502']))
