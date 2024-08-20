@@ -24,7 +24,7 @@ class e_GP:
                 try:
                     res = urlopen(url_str)
                     try:
-                        tree = ET.parse(res).getroot()
+                        tree = ET.parse(source=res, parser=ET.XMLParser(encoding='cp874')).getroot()
                         for root in tree.findall('./channel/item'):
                             if root.tag == 'item':
                                 list_data['egpid'].append(deptId)
