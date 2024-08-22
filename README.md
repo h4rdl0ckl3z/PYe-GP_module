@@ -1,3 +1,4 @@
+# python ≥ 3.8
 # example
 ```
 print(e_GP(['egpid']))
