@@ -26,7 +26,7 @@ class e_GP:
                     try:
                         tree = ET.parse(source=res, parser=ET.XMLParser(encoding='cp874')).getroot()
                         for root in tree.findall('./channel/item'):
-                            if root.tag == 'item':
+                            if root.tag in 'item':
                                 list_data['egpid'].append(deptId)
                                 list_data['anounceType'].append(anounceType)
                                 for rss in root:
