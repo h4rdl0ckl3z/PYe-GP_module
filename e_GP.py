@@ -27,7 +27,7 @@ class e_GP:
                         for rss in root:
                             if rss.tag not in ('description', 'guid'):
                                 list_data[rss.tag].append(rss.text)
-        except (URLError, HTTPError, ConnectionError) as err:
+        except (URLError, HTTPError, ConnectionError, ET.ParseError) as err:
             print(f"Error fetching data: {err}")
 
         return list_data
