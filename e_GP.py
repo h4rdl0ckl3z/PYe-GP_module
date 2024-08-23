@@ -30,9 +30,7 @@ class e_GP:
                                 list_data['egpid'].append(deptId)
                                 list_data['anounceType'].append(anounceType)
                                 for rss in root:
-                                    if rss.tag == 'description' or rss.tag == 'guid':
-                                        pass
-                                    else:
+                                    if rss.tag not in ('description', 'guid'):
                                         list_data[rss.tag].append(rss.text)
                             else:
                                 print('No ITEMS')
