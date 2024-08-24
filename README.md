@@ -23,3 +23,6 @@ Edit aliases.py
 '874'                : 'cp874',
 'windows_874'        : 'cp874',
 ```
+
+####### JavaScript
+####### https://github.com/h4rdl0ckl3z/JSe-GP_module
