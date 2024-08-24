@@ -1,9 +1,10 @@
-# python ≥ 3.8
-# example
+# PYe-GP_module
+## python ≥ 3.8
+### example
 ```
 print(e_GP(['egpid']))
 ```
-## or
+### or
 ```
 from e_GP import e_GP
 print(e_GP(['egpid']))
