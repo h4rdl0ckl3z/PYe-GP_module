@@ -20,8 +20,8 @@ class e_GP:
                         for rss in root:
                             if rss.tag not in ('description', 'guid'):
                                 list_data[rss.tag] = rss.text
-                        list_data['egpid'] = dept_id
                         list_data['anounceType'] = anounce_type
+                        list_data['egpid'] = dept_id
                         myData.append(list_data)
         except (URLError, HTTPError, ConnectionError, ET.ParseError) as err:
             print(f"Error fetching data: {err}")
