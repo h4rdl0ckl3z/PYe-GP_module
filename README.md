@@ -27,3 +27,6 @@ Edit aliases.py
 
 ###### JavaScript
 ###### https://github.com/h4rdl0ckl3z/JSe-GP_module
+
+
+Discord -> https://discord.gg/tDdse2UYwZ
