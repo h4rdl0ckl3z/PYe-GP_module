@@ -14,6 +14,7 @@ class e_GP:
                 try:
                     with urllib.request.urlopen(url) as res:
                         tree = ET.parse(source=res, parser=ET.XMLParser(encoding='cp874')).getroot()
+                        list_data = {}
                         for item in tree.findall('./channel/item'):
                             # Initialize list_data inside the loop
                             list_data = {rss.tag: rss.text for rss in item if rss.tag not in ('description', 'guid')}
