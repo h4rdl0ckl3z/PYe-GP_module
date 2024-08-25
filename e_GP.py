@@ -1,5 +1,6 @@
 class e_GP:
     def __new__(self, dept_ids):
+        self.base_url = 'http://process3.gprocurement.go.th/EPROCRssFeedWeb/egpannouncerss.xml'
         anounce_types = ['W0', 'W2', 'B0', 'D0', 'D1', 'D2', 'P0', 'W1', '15']
         
         self.myData = []
@@ -16,8 +17,7 @@ class e_GP:
         import xml.etree.ElementTree as ET
 
         try:
-            base_url = 'http://process3.gprocurement.go.th/EPROCRssFeedWeb/egpannouncerss.xml'
-            url = f'{base_url}?deptId={dept_id}&anounceType={anounce_type}'
+            url = f'{self.base_url}?deptId={dept_id}&anounceType={anounce_type}'
             res = urlopen(url)
             tree = ET.parse(source=res, parser=ET.XMLParser(encoding='cp874')).getroot()
             list_data = {}
