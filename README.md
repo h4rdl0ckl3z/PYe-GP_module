@@ -2,15 +2,16 @@
 ## python ≥ 3.8
 ### example
 ```
-print(e_GP(['1484217300']).to_json())
+print(e_GP(['1484217300']))
 ```
 ### or
 ```
 from e_GP import e_GP
-print(e_GP(['1484217300']).to_json())
+print(e_GP(['1484217300']))
 ```
 
-![image](https://github.com/user-attachments/assets/08cd7ccf-d8c5-41e8-ba70-b88f11833446)
+![image](https://github.com/user-attachments/assets/3b9da0b8-515e-4613-8bac-c37057c16d7c)
+
 
 
 ### lookuperror unknown encoding windows-874 (fixed)
