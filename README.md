@@ -9,7 +9,7 @@ print(e_GP(['egpid']))
 from e_GP import e_GP
 print(e_GP(['egpid']))
 ```
-![image](https://github.com/user-attachments/assets/f720c505-6e8c-413c-a7eb-cd3822215c44)
+
 
 
 ### lookuperror unknown encoding windows-874 (fixed)
