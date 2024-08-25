@@ -2,7 +2,7 @@ base_url = 'http://process3.gprocurement.go.th/EPROCRssFeedWeb/egpannouncerss.xm
 
 myData = []
 
-def e_GP(dept_ids):
+def e_GP(dept_ids: list):
     anounce_types = ['W0', 'W2', 'B0', 'D0', 'D1', 'D2', 'P0', 'W1', '15']
 
     dept_ids2 = (i for i in dept_ids if i not in (''))
