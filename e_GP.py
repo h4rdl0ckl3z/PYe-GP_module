@@ -21,6 +21,7 @@ class e_GP:
                         list_data['anounceType'] = anounce_type
                         list_data['egpid'] = dept_id
                     myData.append(list_data)
+                    list_data.clear()
         except (URLError, HTTPError, ConnectionError, ET.ParseError) as err:
             print(f'Error fetching data for dept_id {dept_id} and anounce_type {anounce_type}: {err}')
 
