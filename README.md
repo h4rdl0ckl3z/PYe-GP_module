@@ -10,6 +10,7 @@ from e_GP import e_GP
 print(e_GP(['egpid']))
 ```
 
+![image](https://github.com/user-attachments/assets/08cd7ccf-d8c5-41e8-ba70-b88f11833446)
 
 
 ### lookuperror unknown encoding windows-874 (fixed)
