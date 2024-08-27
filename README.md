@@ -18,6 +18,3 @@ print(e_GP(['1484217300']))
 
 ###### JavaScript
 ###### https://github.com/h4rdl0ckl3z/JSe-GP_module
-
-
-Discord -> https://discord.gg/tDdse2UYwZ
