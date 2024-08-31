@@ -1,4 +1,4 @@
-# PYe-GP_module (Thai Government Procurement)
+# PYe-GP_module (Thai e-Government Procurement)
 ## python ≥ 3.8
 ### example
 ```
