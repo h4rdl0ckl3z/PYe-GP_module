@@ -5,9 +5,8 @@ myData = []
 def e_GP(dept_ids):
     anounce_types = ['W0', 'W2', 'B0', 'D0', 'D1', 'D2', 'P0', 'W1', '15']
 
-    dept_ids2 = (i for i in dept_ids if i not in (''))
     for anounce_type in anounce_types:
-        for dept_id in dept_ids2:
+        for dept_id in (i for i in dept_ids if i not in ('')):
             fetchData(dept_id, anounce_type)
 
     from json import dumps
