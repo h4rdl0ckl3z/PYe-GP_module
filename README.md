@@ -1,6 +1,6 @@
 # PYe-GP_module (Thai e-Government Procurement)
 ## python ≥ 3.8
-## example
+### example
 ```
 print(e_GP(['egpid']))
 ```
@@ -9,7 +9,7 @@ or
 from e_GP import e_GP
 print(e_GP(['egpid']))
 ```
-## json to csv
+### json to csv
 ```
 from e_GP import e_GP
 data = e_GP(['egpid'])
