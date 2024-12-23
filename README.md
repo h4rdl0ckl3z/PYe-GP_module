@@ -4,20 +4,13 @@
 ```
 print(e_GP(['egpid']))
 ```
-with methodId
-```
-print(e_GP(['egpid'], True))
-```
+or
 ## import module
 ```
 from e_GP import e_GP
 print(e_GP(['egpid']))
 ```
-with medthodId
-```
-from e_GP import e_GP
-print(e_GP(['egpid'], True))
-```
+
 
 ### json to csv
 ```
